@@ -35,3 +35,16 @@
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+
+/* Force pre-rendered static components to be visible instantly */
+.ion-page-invisible {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+
+/* Add this to the very last line of global.scss to restore color mappings */
+@import "./theme/variables.scss";
+
+
+
